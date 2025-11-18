@@ -2,49 +2,45 @@
 
 
 
-@media screen and (max-width: 992px) {
-    
-}
-
 @media screen and (min-width:768px) {
-
+    
     #topbar{
         justify-content: start;
     }
-
+    
     .container{
         padding: 20px 0;
     }
-
+    
     .recipe-name{
         font-size: 30px;
     }
     
     .recipe-origin {
-	    display: inline;
+        display: inline;
     }
-
+    
     .quick-notes ul{
         display: flex;
         flex-wrap: wrap;
         gap: 40px;
     }
-
+    
     
     .social-networks button {
-	flex-grow: 1;
+        flex-grow: 1;
     }
-
+    
     .ads{
         display: block;
     }
-
+    
     .clearfix::after{
         content: "" ;
         display: table;
         clear: both;
     }
-
+    
     .clearfix img{
         float: left;
         margin-right: 15px;
@@ -54,3 +50,8 @@
 
 
 
+
+
+@media screen and (min-width: 992px) {
+    
+}
