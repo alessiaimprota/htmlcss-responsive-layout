@@ -1,7 +1,12 @@
 /* Soluzione qui */
-  
 
-@media screen and (max-width:768px) {
+
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (min-width:768px) {
 
     #topbar{
         justify-content: start;
@@ -29,7 +34,23 @@
     .social-networks button {
 	flex-grow: 1;
     }
+
+    .ads{
+        display: block;
+    }
+
+    .clearfix::after{
+        content: "" ;
+        display: table;
+        clear: both;
+    }
+
+    .clearfix img{
+        float: left;
+        margin-right: 15px;
+    }
 }
+
 
 
 
