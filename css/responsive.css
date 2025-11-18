@@ -1,1 +1,35 @@
 /* Soluzione qui */
+  
+
+@media screen and (max-width:768px) {
+
+    #topbar{
+        justify-content: start;
+    }
+
+    .container{
+        padding: 20px 0;
+    }
+
+    .recipe-name{
+        font-size: 30px;
+    }
+    
+    .recipe-origin {
+	    display: inline;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    
+    .social-networks button {
+	flex-grow: 1;
+    }
+}
+
+
+
