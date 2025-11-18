@@ -1,6 +1,22 @@
 /* Soluzione qui */
 
-
+@media screen and (min-width:576px){
+    
+    .clearfix::after{
+        content: "" ;
+        display: table;
+        clear: both;
+    }
+    
+    .clearfix img{
+        float: left;
+        margin-right: 15px;
+    }
+    
+    .social-networks button {
+        flex-grow: 1;
+    }
+}
 
 @media screen and (min-width:768px) {
     
@@ -27,24 +43,10 @@
     }
     
     
-    .social-networks button {
-        flex-grow: 1;
-    }
-    
     .ads{
         display: block;
     }
     
-    .clearfix::after{
-        content: "" ;
-        display: table;
-        clear: both;
-    }
-    
-    .clearfix img{
-        float: left;
-        margin-right: 15px;
-    }
 }
 
 
